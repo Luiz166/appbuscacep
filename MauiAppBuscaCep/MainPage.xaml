@@ -11,11 +11,11 @@
 
 
             <StackLayout Orientation="Horizontal">
-                <Entry x:Name="txt_cep" HorizontalOptions="FillAndExpand" />
+                <Entry x:Name="txt_cep" HorizontalOptions="FillAndExpand" Placeholder="CEP" />
                 <Button Text="Buscar" Clicked="Button_Clicked" />
             </StackLayout>
 
-            <Grid RowDefinitions="*, *, *, *, *, *, *, *, *, *" ColumnDefinitions="*, 2*">
+            <Grid RowDefinitions="*, *, *, *, *, *, *, *, *, *, *, *" ColumnDefinitions="*,*">
 
                 <Label Grid.Row="0" Grid.Column="0" Text="id_logradouro" />
                 <Label Grid.Row="0" Grid.Column="1" Text="{Binding id_logradouro}" />

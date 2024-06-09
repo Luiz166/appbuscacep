@@ -6,7 +6,9 @@
     <VerticalStackLayout>
 
         <Grid ColumnDefinitions="*, *"
-              RowDefinitions="*, *, *, *">
+              RowDefinitions="*, *, *, *"
+              ColumnSpacing="10" RowSpacing="10"
+              Padding="10" VerticalOptions="CenterAndExpand">
 
             <Label Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="2"

@@ -4,9 +4,9 @@
              x:Class="MauiAppBuscaCep.Views.BuscaCepPorLogradouro"
              Title="BuscaCepPorLogradouro">
     <VerticalStackLayout>
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Horizontal" Padding="20" Spacing="10">
             <SearchBar x:Name="txt_logradouro"
-               Placeholder="Qual é sua rua?" />
+               Placeholder="Qual é sua rua?" HorizontalOptions="FillAndExpand" TextColor="Black"/>
             <Button Text="Buscar" Clicked="Button_Clicked"  />
         </StackLayout>
 
